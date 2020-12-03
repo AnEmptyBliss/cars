@@ -8,12 +8,12 @@ do
 	read userchoice
 	case $userchoice in
 	1)
+		echo "Please enter the year the car was made: " 
+		read year
 		echo "Please enter the make of the car: "
 		read make
 		echo "Please enter the model of the car: "
 		read model
-		echo "Please enter the year the car was made: "
-		read year
 		cars="$year:$make:$model"
 		echo "$cars" >> "My_old_cars"
 		echo "Your car has been successfully added to the list."

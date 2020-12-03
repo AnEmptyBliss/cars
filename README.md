@@ -32,5 +32,5 @@ The program will display a “Goodbye” message and exit.
 ## References
 - https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_03.html
 
-##Instructions
+## Instructions
 To run the script with input from the included cars-input file: ./cars.sh < cars-input
